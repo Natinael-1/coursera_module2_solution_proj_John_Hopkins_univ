@@ -1,0 +1,85 @@
+body{
+    background-color: white;
+
+}
+*{
+    box-sizing: border-box;
+}
+div#div1, div#div2, div#div3{
+    border: 1px solid black;
+    padding: 0px 15px 15px 15px;
+    margin: 10px;
+    width:33.33%;
+    background-color: grey;
+    position: relative;
+}
+p.prgps{
+    clear: right;
+    color: white;
+
+}
+p#sec1, p#sec2, p#sec3{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 90%;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: blue;
+    width: 100px;
+    float: right;
+    position: relative;
+    top: 0px;
+    left: 16px;
+    margin-top: 0px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 100px;
+    margin-top: 120px;
+    text-align: center;
+}
+@media(min-width: 992px){
+    div#div1, div#div2, div#div3{
+    border: 1px solid black;
+    padding: 0px 15px 15px 15px;
+    margin: 10px;
+    width: 30%;
+    background-color: grey;
+    position: relative;
+    float: left;
+}
+}
+@media(min-width: 768px) and (max-width:991px){
+    div#div1, div#div2{
+    border: 1px solid black;
+    padding: 0px 15px 15px 15px;
+    margin: 10px;
+    width: 45%;
+    background-color: grey;
+    position: relative;
+    float:left;
+    }
+    
+    div#div3{
+    border: 1px solid black;
+    padding: 0px 15px 15px 15px;
+    margin: 10px;
+    width:100%;
+    background-color: grey;
+    position: relative;
+    float: left; 
+
+    }
+}
+@media(max-width: 767px){
+    div#div1, div#div2, div#div3{
+    border: 1px solid black;
+    padding: 0px 15px 15px 15px;
+    margin: 10px;
+    width:100%;
+    background-color: grey;
+    position: relative;
+    float: left;
+    }
+
+}
