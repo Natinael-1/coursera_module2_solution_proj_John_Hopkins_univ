@@ -1,0 +1,1 @@
+This is coding exercise for module_2 mainly focuses on page layout.
